@@ -1,0 +1,219 @@
+2021-06-11 01:47:23,542:INFO:Initializing load_model()
+2021-06-11 01:47:23,543:INFO:load_model(model_name=trained_model, platform=None, authentication=None, verbose=True)
+2021-06-11 01:47:25,467:INFO:Initializing load_model()
+2021-06-11 01:47:25,467:INFO:load_model(model_name=trained_model, platform=None, authentication=None, verbose=True)
+2021-06-11 01:47:54,409:INFO:Initializing predict_model()
+2021-06-11 01:47:54,409:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:47:54,409:INFO:Checking exceptions
+2021-06-11 01:47:54,409:INFO:Preloading libraries
+2021-06-11 01:53:44,937:INFO:Initializing predict_model()
+2021-06-11 01:53:44,937:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:53:44,937:INFO:Checking exceptions
+2021-06-11 01:53:44,937:INFO:Preloading libraries
+2021-06-11 01:54:06,652:INFO:Initializing load_model()
+2021-06-11 01:54:06,652:INFO:load_model(model_name=trained_model, platform=None, authentication=None, verbose=True)
+2021-06-11 01:54:09,570:INFO:Initializing predict_model()
+2021-06-11 01:54:09,570:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:54:09,570:INFO:Checking exceptions
+2021-06-11 01:54:09,570:INFO:Preloading libraries
+2021-06-11 01:54:25,084:INFO:Initializing load_model()
+2021-06-11 01:54:25,084:INFO:load_model(model_name=trained_model, platform=None, authentication=None, verbose=True)
+2021-06-11 01:54:25,573:INFO:Initializing predict_model()
+2021-06-11 01:54:25,573:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:54:25,573:INFO:Checking exceptions
+2021-06-11 01:54:25,573:INFO:Preloading libraries
+2021-06-11 01:54:33,360:INFO:Initializing predict_model()
+2021-06-11 01:54:33,360:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:54:33,360:INFO:Checking exceptions
+2021-06-11 01:54:33,360:INFO:Preloading libraries
+2021-06-11 01:54:48,385:INFO:Initializing predict_model()
+2021-06-11 01:54:48,385:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:54:48,385:INFO:Checking exceptions
+2021-06-11 01:54:48,385:INFO:Preloading libraries
+2021-06-11 01:58:01,954:INFO:Initializing predict_model()
+2021-06-11 01:58:01,954:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:58:01,954:INFO:Checking exceptions
+2021-06-11 01:58:01,954:INFO:Preloading libraries
+2021-06-11 01:59:26,302:INFO:Initializing predict_model()
+2021-06-11 01:59:26,303:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:59:26,303:INFO:Checking exceptions
+2021-06-11 01:59:26,303:INFO:Preloading libraries
+2021-06-11 01:59:50,464:INFO:Initializing load_model()
+2021-06-11 01:59:50,464:INFO:load_model(model_name=trained_model, platform=None, authentication=None, verbose=True)
+2021-06-11 01:59:59,930:INFO:Initializing predict_model()
+2021-06-11 01:59:59,931:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='parkinsons_status')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'fre...
+                ('binn', 'passthrough'), ('rem_outliers', 'passthrough'),
+                ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='parkinsons_status')),
+                ('fix_perfect', Remove_100(target='parkinsons_status')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearDiscriminantAnalysis()]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-06-11 01:59:59,931:INFO:Checking exceptions
+2021-06-11 01:59:59,931:INFO:Preloading libraries
+2021-06-11 02:00:20,389:INFO:Initializing load_model()
+2021-06-11 02:00:20,389:INFO:load_model(model_name=trained_model, platform=None, authentication=None, verbose=True)
