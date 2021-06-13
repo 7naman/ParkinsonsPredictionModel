@@ -1,1 +1,1 @@
-web: gunicorn Voice_Model_api:app
+web: gunicorn api:app
