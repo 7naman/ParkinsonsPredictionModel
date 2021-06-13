@@ -76,10 +76,9 @@ def predict():
     input_values.append(hnr38)
 
     os.remove(cwd+"/"+voiceData.filename) 
-    
     final = np.array(input_values)
     data_unseen = pd.DataFrame([final],columns = cols)
-    prediction  = predict_model(model , data = data_unseen )
+    prediction  = model(model , data = data_unseen)
     print(prediction.Label[0])
     if prediction.Label[0] == 1:
         return "The Model detects that this person has Parkinson's Disease. Please get proper Medical Attention."
