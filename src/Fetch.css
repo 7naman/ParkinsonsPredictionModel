@@ -1,0 +1,139 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formcontainer{
+    background-image: url('./doc.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    border-radius: 20px;
+    padding: 100px;
+    width: 800px;
+    height: 300px;
+}
+
+.input {
+    display: flex;
+    color: white;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: azure;
+    height: fit-content;
+}
+
+.custom-file-upload:hover{
+    background-color: white;
+}
+
+.selectFile{
+margin-right: 30px;
+color: black;
+font-size: 35px;
+letter-spacing: 2px;
+font-weight: 600;
+}
+
+.upload{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.uploadBtn{
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: azure;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.uploadBtn:hover{
+    background-color: white;
+}
+
+.output{
+    margin-top: 50px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.prediction{
+    font-size: 18px;
+}
+
+.predictionVal{
+    font-size: 26px;
+}
+
+.ReactModal__Overlay{
+    background-color: #000000cf  !important;
+}
+
+.closeButton{
+    position: absolute;
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 0;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* ._1lB9c{
+    display: none !important;
+}
+
+._1ceqH ._dt3-T{
+    min-height: 300px !important;
+    width: 320px !important;
+}
+
+._1ceqH ._dt3-T{
+border-radius: 20px !important;
+}
+
+._f2DT8 span{
+    font-size: 40px !important;
+}
+
+._1Pz2d _37kfa{
+    display: none;
+} 
+
+ ._2fG9h{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 !important;
+}  */
+
+@media only screen and (max-width: 500px) {
+   .formcontainer{
+       width: 300px;
+   }
+  }
